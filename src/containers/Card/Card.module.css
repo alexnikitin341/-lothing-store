@@ -1,0 +1,48 @@
+.Card {
+  width: 200px;
+  float: left;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.Card div p {
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+
+  margin-left: auto;
+  width: 75px;
+}
+.Card h2 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+}
+.Card div h3 {
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+}
+.img_div {
+  text-decoration: none;
+  background-image: url(`/images/${props.sku}_2.jpg`);
+  margin: auto;
+
+  /* background-image: url("../../../public/images/products/100_1.jpg"); */
+}
+.none {
+  background-color: white;
+  color: white;
+}
+.yes {
+  color: white;
+  background-color: black;
+}
+
+.img {
+  min-width: 100%;
+  min-height: 100%;
+
+  top: 0;
+  left: 0;
+}
