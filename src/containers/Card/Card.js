@@ -10,10 +10,10 @@ export default (props) => (
       ) : (
         <p className={classes.none}> 2</p>
       )}
-      <a href={`/images/${props.sku}_1.jpg`}>
+      <a href={`/images/products/${props.sku}_1.jpg`}>
         <img
           className={classes.img}
-          src={`/images/${props.sku}_2.jpg`}
+          src={`/images/products/${props.sku}_2.jpg`}
           alt={props.style}
         />
       </a>

@@ -4,12 +4,12 @@
   background-color: black;
   border: none;
   width: 100%;
-  color: rgb(192, 192, 192);
+  color: white;
   margin-right: 15px;
   font-weight: bold;
   font-size: 12px;
 }
 
 .Button:hover {
-  background-color: #504f4f;
+  background-color: #e4c807;
 }
